@@ -1,0 +1,27 @@
+{
+    "name": "my-node-api",
+    "version": "1.0.0",
+    "description": "A simple API with authentication and two queries",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+    },
+    "keywords": [
+      "node",
+      "express",
+      "api"
+    ],
+    "author": "Carlos H. Xavier, Solano",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mysql2": "^2.x.x",
+      "body-parser": "^1.19.0",
+      "dotenv": "^10.0.0",
+      "jsonwebtoken": "^8.5.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
